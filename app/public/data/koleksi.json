@@ -1,10 +1,94 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Home Sweet Home 1",
+    "kategori": "Drama (Aksi, Horor)",
+    "Sutradara": "Lee Eung Book",
+    "Tahun Rilis": 2020,
+    "Rating": "7.3/10"
+  },
+
+  {
+    "id": "2",
+    "judul": "Inception",
+    "kategori": "Film (Aksi, Fiksi Ilmiah)",
+    "Sutradara": "Christopher Nolan",
+    "Tahun Rilis": 2010,
+    "Rating": "8.8/10"
+  },
+
+  {
+    "id": "3",
+    "judul": "Spider-Man: Into the Spider-Verse",
+    "kategori": "Animasi (Aksi / Petualangan)",
+    "Sutradara": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "Tahun Rilis": 2018,
+    "Rating": "8.4/10"
+  },
+  
+
+  {
+    "id": "4",
+    "judul": "Formula 1: Drive to Survive",
+    "kategori": "Serial Dokumenter (Olahraga / Aksi)",
+    "Sutradara": "Paul Martin",
+    "Tahun Rilis": 2019,
+    "Rating": "8.5/10"
+  },
+
+  {
+    "id": "5",
+    "judul": "Arcane",
+    "kategori": "Animasi (Aksi / Fantasi)",
+    "Sutradara": "Pascal Charrue, Arnaud Delord",
+    "Tahun Rilis": 2021,
+    "Rating": "9.0/10"
+  },
+
+
+  {
+    "id": "6",
+    "judul": "The Last Dance",
+    "kategori": "Serial Dokumenter (Olahraga / Biografi)",
+    "Sutradara": "Jason Hehir",
+    "Tahun Rilis": 2020,
+    "Rating": "9.1/10"
+  },
+
+  {
+    "id": "7",
+    "judul": "Mad Max: Fury Road",
+    "kategori": "Film (Aksi / Sci-Fi)",
+    "Sutradara": "George Miller",
+    "Tahun Rilis": 2015,
+    "Rating": "8.1/10"
+  },
+
+  {
+    "id": "8",
+    "judul": "Moving",
+    "kategori": "Drama Korea (Aksi / Supernatural)",
+    "Sutradara": "Park In-je",
+    "Tahun Rilis": 2023,
+    "Rating": "8.5/10"
+  },
+
+  {
+    "id": "9",
+    "judul": "Free Solo",
+    "kategori": "Film Dokumenter (Petualangan / Aksi Nyata)",
+    "Sutradara": "Elizabeth Chai Vasarhelyi, Jimmy Chin",
+    "Tahun Rilis": 2018,
+    "Rating": "8.1/10"
+  },
+
+  {
+    "id": "10",
+    "judul": "Attack on Titan (Shingeki no Kyojin)",
+    "kategori": "Animasi/Anime (Aksi / Fantasi Gelap)",
+    "Sutradara": "Tetsurō Araki, Masashi Koizuka, Yuichiro Hayashi",
+    "Tahun Rilis": 2013,
+    "Rating": "9.1/10"
   }
+  
 ]
