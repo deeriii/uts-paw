@@ -11,7 +11,7 @@ function Beranda() {
     <main>
       <h1>Ujian Tengah Semester Pengembangan Aplikasi Web</h1>
       <p>
-        {mahasiswa.nama || 'Nama belum diisi'} ({mahasiswa.nim || 'NIM belum diisi'})
+        {mahasiswa.nama || 'Ribka Deuina Manik'} ({mahasiswa.nim || '124140014'})
       </p>
     </main>
   )
