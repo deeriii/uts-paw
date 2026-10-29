@@ -21,7 +21,7 @@ export function KoleksiProvider({ children }) {
       }
     }
     muat()
-  }, [items, setItems])
+  }, [])
 
   const tambah = (item) => setItems((lama) => [...(lama ?? []), { ...item, id: String(Date.now()) }])
   const hapus = (id) => setItems((lama) => lama.filter((item) => item.id !== id))

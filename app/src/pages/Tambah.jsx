@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: 'Masukkan Judul Tontonan', kategori: 'Drama (action, horor)', sutradara: 'Kim Jong Ki', rating: '' }
+const AWAL = { judul: '', kategori: '', sutradara: '', tahunRilis: '', rating: '' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -57,6 +57,9 @@ export default function Tambah() {
       <label htmlFor="sutradara">Sutradara</label>
       <input id="sutradara" name="sutradara" value={form.sutradara} onChange={ubah} />
       {galatSutradara && <p role="alert">{galatSutradara}</p>}
+
+      <label htmlFor="tahunRilis">Tahun Rilis</label>
+      <input id="tahunRilis" name="tahunRilis" value={form.tahunRilis} onChange={ubah} />
 
       <label htmlFor="Rating">Rating</label>
       <select id="rating" name="rating" value={form.rating} onChange={ubah}>

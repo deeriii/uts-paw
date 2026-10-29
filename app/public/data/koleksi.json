@@ -3,27 +3,27 @@
     "id": "1",
     "judul": "Home Sweet Home Season 1",
     "kategori": "Drama (Aksi, Horor)",
-    "Sutradara": "Lee Eung Book",
-    "Tahun Rilis": 2020,
-    "Rating": "7/10"
+    "sutradara": "Lee Eung Book",
+    "tahunRilis": 2020,
+    "rating": "7/10"
   },
 
   {
     "id": "2",
     "judul": "Inception",
     "kategori": "Film (Aksi, Fiksi Ilmiah)",
-    "Sutradara": "Christopher Nolan",
-    "Tahun Rilis": 2010,
-    "Rating": "8/10"
+    "sutradara": "Christopher Nolan",
+    "tahunRilis": 2010,
+    "rating": "8/10"
   },
 
   {
     "id": "3",
     "judul": "Spider-Man: Into the Spider-Verse",
     "kategori": "Animasi (Aksi / Petualangan)",
-    "Sutradara": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
-    "Tahun Rilis": 2018,
-    "Rating": "8/10"
+    "sutradara": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "tahunRilis": 2018,
+    "rating": "8/10"
   },
 
 
@@ -31,18 +31,18 @@
     "id": "4",
     "judul": "Formula 1: Drive to Survive",
     "kategori": "Serial Dokumenter (Olahraga / Aksi)",
-    "Sutradara": "Paul Martin",
-    "Tahun Rilis": 2019,
-    "Rating": "8/10"
+    "sutradara": "Paul Martin",
+    "tahunRilis": 2019,
+    "rating": "8/10"
   },
 
   {
     "id": "5",
     "judul": "Arcane",
     "kategori": "Animasi (Aksi / Fantasi)",
-    "Sutradara": "Pascal Charrue, Arnaud Delord",
-    "Tahun Rilis": 2021,
-    "Rating": "9/10"
+    "sutradara": "Pascal Charrue, Arnaud Delord",
+    "tahunRilis": 2021,
+    "rating": "9/10"
   },
 
 
@@ -50,45 +50,45 @@
     "id": "6",
     "judul": "The Last Dance",
     "kategori": "Serial Dokumenter (Olahraga / Biografi)",
-    "Sutradara": "Jason Hehir",
-    "Tahun Rilis": 2020,
-    "Rating": "9/10"
+    "sutradara": "Jason Hehir",
+    "tahunRilis": 2020,
+    "rating": "9/10"
   },
 
   {
     "id": "7",
     "judul": "Mad Max: Fury Road",
     "kategori": "Film (Aksi / Sci-Fi)",
-    "Sutradara": "George Miller",
-    "Tahun Rilis": 2015,
-    "Rating": "8/10"
+    "sutradara": "George Miller",
+    "tahunRilis": 2015,
+    "rating": "8/10"
   },
 
   {
     "id": "8",
     "judul": "Moving",
     "kategori": "Drama Korea (Aksi / Supernatural)",
-    "Sutradara": "Park In-je",
-    "Tahun Rilis": 2023,
-    "Rating": "8/10"
+    "sutradara": "Park In-je",
+    "tahunRilis": 2023,
+    "rating": "8/10"
   },
 
   {
     "id": "9",
     "judul": "Free Solo",
     "kategori": "Film Dokumenter (Petualangan / Aksi Nyata)",
-    "Sutradara": "Elizabeth Chai Vasarhelyi, Jimmy Chin",
-    "Tahun Rilis": 2018,
-    "Rating": "8/10"
+    "sutradara": "Elizabeth Chai Vasarhelyi, Jimmy Chin",
+    "tahunRilis": 2018,
+    "rating": "8/10"
   },
 
   {
     "id": "10",
     "judul": "Attack on Titan (Shingeki no Kyojin)",
     "kategori": "Animasi/Anime (Aksi / Fantasi Gelap)",
-    "Sutradara": "Tetsurō Araki, Masashi Koizuka, Yuichiro Hayashi",
-    "Tahun Rilis": 2013,
-    "Rating": "9/10"
+    "sutradara": "Tetsurō Araki, Masashi Koizuka, Yuichiro Hayashi",
+    "tahunRilis": 2013,
+    "rating": "9/10"
   }
   
 ]
