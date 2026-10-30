@@ -71,11 +71,11 @@ Kelas: RA
 Tema: Daftar Tontonan Film dan Serial
 Deployment: https://deeriii.github.io/uts-paw/
 
-![Tangkapan layar beranda](./img/Beranda.png)
-![Tangkapan layar Koleksi](./img/Koleksi.png)
-![Tangkapan layar Tambah](./img/Tambah.png)
-![Tangkapan layar Statistik](./img/Statistik.png)
-![Tangkapan layar Tentang](./img/Tentang.png)
+![Tangkapan layar beranda](img/Beranda.png)
+![Tangkapan layar Koleksi](img/Koleksi.png)
+![Tangkapan layar Tambah](img/Tambah.png)
+![Tangkapan layar Statistik](img/Statistik.png)
+![Tangkapan layar Tentang](img/Tentang.png)
 
 ## Fitur
 Web ini memiliki fitur:
