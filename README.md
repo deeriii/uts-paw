@@ -71,15 +71,19 @@ Kelas: RA
 Tema: Daftar Tontonan Film dan Serial
 Deployment: https://deeriii.github.io/uts-paw/
 
-![Tangkapan layar beranda](img/Beranda.png)
-![Tangkapan layar Koleksi](img/Koleksi.png)
-![Tangkapan layar Tambah](img/Tambah.png)
-![Tangkapan layar Statistik](img/Statistik.png)
-![Tangkapan layar Tentang](img/Tentang.png)
+![Tangkapan layar beranda](./img/Beranda.png)
+![Tangkapan layar Koleksi](./img/Koleksi.png)
+![Tangkapan layar Tambah](./img/Tambah.png)
+![Tangkapan layar Statistik](./img/Statistik.png)
+![Tangkapan layar Tentang](./img/Tentang.png)
 
 ## Fitur
-
-- ...
+Web ini memiliki fitur:
+1. Pencarian Film dan Drama Pada Menu Koleksi
+2. Bisa membuat koleksi tontonan pada menu Koleksi
+3. Bisa memperlihatkan detail tontonan dan menghapus  tontonan pada menu Koleksi
+4. Memberikan statistik tontonan pada menu Statistik
+5. User bisa menambah tontonan secara mandiri pada menu tambah
 
 ## Menjalankan secara lokal
 
@@ -88,6 +92,8 @@ npm install
 npm run dev
 
 ## Konsep React yang dipakai
-
-- ...
+1. Menggunakan components: sebagai antarmuka yang bisa digunakan kembali, seperti KartuItem.jsx yg digunakan untuk menampilkan kartu tontonan.
+2. Pages: tempat menyimpan struktur halaman untuk mengatur navigasi antar menu.
+3. Context: untuk mengelola data koleksi film atau drama, agar bisa diakses oleh berbagai komponen dengan mudah.
+4. Hooks: di dalamnnya terdapat fungsi yang bisa dipakai ulang.
 ```
