@@ -1,0 +1,12 @@
+.kartu {
+  background-color: #ffe8f6;
+  border-radius: 12px;
+  padding: 20px;
+  max-width:  600px;
+}
+
+.kartu h3 a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000000;
+}
