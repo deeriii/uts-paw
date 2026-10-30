@@ -13,7 +13,7 @@
 .formulir input,
 .formulir select {
   padding: 0.5rem 0.75rem;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #ead2da;
   border-radius: 6px;
   font: inherit;
 }
@@ -30,8 +30,8 @@
   padding: 0.6rem 1.5rem;
   border: 0;
   border-radius: 6px;
-  background: #1f2328;
-  color: #fff;
+  background: #f4aec7;
+  color: #000000;
   font: inherit;
   cursor: pointer;
 }

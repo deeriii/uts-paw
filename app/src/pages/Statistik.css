@@ -16,11 +16,11 @@
 }
 
 .tabel-data thead th {
-  background: #f1f1f1;
+  background: #f8e4eb;
 }
 
 .tabel-data tbody tr:nth-child(even) {
-  background: #fafafa;
+  background: #f8e4eb;
 }
 
 .tabel-data td:last-child,

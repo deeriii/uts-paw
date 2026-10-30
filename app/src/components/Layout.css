@@ -5,18 +5,35 @@
 }
 
 .kepala {
+  background-color: #f8e4eb;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
 }
 
+.kepala strong {
+  color: #e29cb2
+}
+
 .menu {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a{
+  color: #d794a9;
+  padding: 5px;
+  text-decoration: none;
+
 }
 
 .menu a.active {
+  color: #995068;
+  background-color: #f4aec7;
+  border-radius: 50px;
   font-weight: 600;
 }
 
