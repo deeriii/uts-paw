@@ -12,7 +12,7 @@ export default function Beranda() {
       <div id="beranda">
         <div className = "Kotak">
           <p id="tema">TEMA</p> 
-          <p> {mahasiswa.tema}</p>
+          <p> <strong>{mahasiswa.tema}</strong></p>
         </div>
 
         <div className = "KotakKeterangan">
