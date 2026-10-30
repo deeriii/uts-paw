@@ -1,3 +1,53 @@
-.menu {
-    
+#judulBeranda {
+    text-align: center;
+    font-size: 3rem;
+    color: #010101;
 }
+
+#beranda {
+    align-item: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-bottom: 30px;
+}
+.Kotak {
+    background-color: #f8e4eb5c;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 20%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.KotakKeterangan {
+    background-color: #f8e4eb5c;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 20%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.KotakKoleksi {
+    text-align: center;
+}
+
+.KotakKoleksi a {
+    color: #0c0c0c;
+    text-decoration: none;
+    background-color: #f8e4eb5c;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 20%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+#tema {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:1rem;
+    color: #6d323f61;
+}
+

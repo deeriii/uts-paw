@@ -45,37 +45,42 @@ export default function Tambah() {
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
       <h1>Tambah Tontonan</h1>
+    <div className="pembungkusKolom">
+        <div id= "kolom1">
+        <label htmlFor="judul">Judul</label>
+        <input id="judul" name="judul" value={form.judul} onChange={ubah} />
+        {galat && <p role="alert">{galat}</p>}
 
-      <label htmlFor="judul">Judul</label>
-      <input id="judul" name="judul" value={form.judul} onChange={ubah} />
-      {galat && <p role="alert">{galat}</p>}
+        <label htmlFor="kategori">Kategori</label>
+        <input id="kategori" name="kategori" value={form.kategori} onChange={ubah} />
+        {galatKategori && <p role="alert">{galatKategori}</p>}
 
-      <label htmlFor="kategori">Kategori</label>
-      <input id="kategori" name="kategori" value={form.kategori} onChange={ubah} />
-      {galatKategori && <p role="alert">{galatKategori}</p>}
+        <label htmlFor="sutradara">Sutradara</label>
+        <input id="sutradara" name="sutradara" value={form.sutradara} onChange={ubah} />
+        {galatSutradara && <p role="alert">{galatSutradara}</p>}
+        </div>
 
-      <label htmlFor="sutradara">Sutradara</label>
-      <input id="sutradara" name="sutradara" value={form.sutradara} onChange={ubah} />
-      {galatSutradara && <p role="alert">{galatSutradara}</p>}
+        <div id="kolom2">
+        <label htmlFor="tahunRilis">Tahun Rilis</label>
+        <input id="tahunRilis" name="tahunRilis" value={form.tahunRilis} onChange={ubah} />
 
-      <label htmlFor="tahunRilis">Tahun Rilis</label>
-      <input id="tahunRilis" name="tahunRilis" value={form.tahunRilis} onChange={ubah} />
+        <label htmlFor="Rating">Rating</label>
+        <select id="rating" name="rating" value={form.rating} onChange={ubah}>
+            <option>1/10</option>
+            <option>2/10</option>
+            <option>3/10</option>
+            <option>4/10</option>
+            <option>5/10</option>
+            <option>6/10</option>
+            <option>7/10</option>
+            <option>8/10</option>
+            <option>9/10</option>
+            <option>10/10</option>
+        </select>
 
-      <label htmlFor="Rating">Rating</label>
-      <select id="rating" name="rating" value={form.rating} onChange={ubah}>
-        <option>1/10</option>
-        <option>2/10</option>
-        <option>3/10</option>
-        <option>4/10</option>
-        <option>5/10</option>
-        <option>6/10</option>
-        <option>7/10</option>
-        <option>8/10</option>
-        <option>9/10</option>
-        <option>10/10</option>
-      </select>
-
-      <button type="submit">Simpan</button>
+        <button type="submit">Simpan</button>
+        </div>
+    </div>
     </form>
   )
 }

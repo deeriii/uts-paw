@@ -1,3 +1,17 @@
+.tabel {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 90%;
+  max-width: 450px;
+  margin: 2rem auto;
+  background-color: #f8e4eb5c;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+}
+
 .tabel-gulir {
   overflow-x: auto;
 }
