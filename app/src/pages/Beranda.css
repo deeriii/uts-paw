@@ -22,7 +22,9 @@
 }
 
 .KotakKeterangan {
+    display: flex;
     background-color: #f8e4eb5c;
+    align-items: center;
     border-radius: 12px;
     padding: 10px;
     max-width: 20%;

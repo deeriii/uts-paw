@@ -8,7 +8,7 @@ export default function Beranda() {
 
   return (
     <section>
-      <h1 id="judulBeranda">Pencatatan Tontonan</h1>
+      <h1 id="judulBeranda">NontonYuk!</h1>
       <div id="beranda">
         <div className = "Kotak">
           <p id="tema">TEMA</p> 
@@ -20,7 +20,8 @@ export default function Beranda() {
             <p>Memuat ringkasan...</p>
           ) : (
             <p>
-              Ada {items.length} tontonan dalam {jumlahKategori} kategori.
+              <strong>Tontonan:</strong> {items.length} <br/>
+              <strong>Kategori:</strong> {jumlahKategori}
             </p>
           )}
         </div>
